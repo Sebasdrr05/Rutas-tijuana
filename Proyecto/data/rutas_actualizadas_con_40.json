@@ -1,0 +1,742 @@
+[
+  {
+    "nombre": "Taxi Centro - UABC - 5 y 10",
+    "precio": 17,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      },
+      {
+        "nombre": "Zona Río",
+        "lat": 32.528,
+        "lng": -117.005
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Rojo y Crema 7",
+    "precio": 15,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      },
+      {
+        "nombre": "El Florido",
+        "lat": 32.478,
+        "lng": -116.905
+      },
+      {
+        "nombre": "El Refugio",
+        "lat": 32.487,
+        "lng": -116.928
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Camión Altisa Ruta 3",
+    "precio": 16,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "La Presa",
+        "lat": 32.4921,
+        "lng": -116.91
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Rosarito - UABC - 5 y 10",
+    "precio": 18,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Rosarito",
+        "lat": 32.342,
+        "lng": -117.055
+      },
+      {
+        "nombre": "Playas",
+        "lat": 32.5258,
+        "lng": -117.1234
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Azul y Blanco 5",
+    "precio": 14,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "Santa Fe",
+        "lat": 32.459,
+        "lng": -116.989
+      },
+      {
+        "nombre": "La Gloria",
+        "lat": 32.472,
+        "lng": -117.003
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      }
+    ]
+  },
+  {
+    "nombre": "SITT Troncal 1",
+    "precio": 18,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "Insurgentes",
+        "lat": 32.4922,
+        "lng": -116.981
+      },
+      {
+        "nombre": "Zona Río",
+        "lat": 32.528,
+        "lng": -117.005
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Tec - Otay - Centro",
+    "precio": 17,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Tec",
+        "lat": 32.505,
+        "lng": -116.97
+      },
+      {
+        "nombre": "Otay",
+        "lat": 32.541,
+        "lng": -116.97
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Blanco y Amarillo Ruta 4",
+    "precio": 15,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "La Morita",
+        "lat": 32.467,
+        "lng": -116.916
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      }
+    ]
+  },
+  {
+    "nombre": "Camión Transportes 24 Febrero",
+    "precio": 15,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "El Niño",
+        "lat": 32.493,
+        "lng": -116.925
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      },
+      {
+        "nombre": "Zona Río",
+        "lat": 32.528,
+        "lng": -117.005
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Libertad - Centro",
+    "precio": 14,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Libertad",
+        "lat": 32.518,
+        "lng": -117.03
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Villa del Campo - Centro",
+    "precio": 17,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Villa del Campo",
+        "lat": 32.47,
+        "lng": -116.875
+      },
+      {
+        "nombre": "El Florido",
+        "lat": 32.478,
+        "lng": -116.905
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Colinas - Otay",
+    "precio": 15,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "Colinas de la Presa",
+        "lat": 32.488,
+        "lng": -116.892
+      },
+      {
+        "nombre": "Otay",
+        "lat": 32.541,
+        "lng": -116.97
+      }
+    ]
+  },
+  {
+    "nombre": "Camión 24 de Febrero - Terrazas",
+    "precio": 16,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "Terrazas del Valle",
+        "lat": 32.474,
+        "lng": -116.865
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Otay - Santa Fe",
+    "precio": 17,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Otay",
+        "lat": 32.541,
+        "lng": -116.97
+      },
+      {
+        "nombre": "Santa Fe",
+        "lat": 32.459,
+        "lng": -116.989
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Villa del Campo - UABC",
+    "precio": 14,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "Villa del Campo",
+        "lat": 32.47,
+        "lng": -116.875
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      }
+    ]
+  },
+  {
+    "nombre": "Camión Florido - UABC",
+    "precio": 15,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "El Florido",
+        "lat": 32.478,
+        "lng": -116.905
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Nueva Tijuana - Centro",
+    "precio": 15,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Nueva Tijuana",
+        "lat": 32.5265,
+        "lng": -116.964
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia El Niño - UABC",
+    "precio": 14,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "El Niño",
+        "lat": 32.493,
+        "lng": -116.925
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      }
+    ]
+  },
+  {
+    "nombre": "Camión La Gloria - Centro",
+    "precio": 15,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "La Gloria",
+        "lat": 32.472,
+        "lng": -117.003
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Altiplano - 5 y 10",
+    "precio": 16,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Altiplano",
+        "lat": 32.487,
+        "lng": -116.895
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      }
+    ]
+  },
+  {
+    "nombre": "Camión Terrazas - Centro",
+    "precio": 16,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "Terrazas del Valle",
+        "lat": 32.474,
+        "lng": -116.865
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Murúa - UABC",
+    "precio": 15,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "Murúa",
+        "lat": 32.519,
+        "lng": -116.96
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi La Mesa - Centro",
+    "precio": 16,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "La Mesa",
+        "lat": 32.508,
+        "lng": -117.002
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Camión Otay - El Rubí",
+    "precio": 17,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "Otay",
+        "lat": 32.541,
+        "lng": -116.97
+      },
+      {
+        "nombre": "El Rubí",
+        "lat": 32.478,
+        "lng": -117.035
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Natura - Centro",
+    "precio": 14,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "Natura",
+        "lat": 32.486,
+        "lng": -116.85
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Sánchez Taboada - 5 y 10",
+    "precio": 16,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Sánchez Taboada",
+        "lat": 32.508,
+        "lng": -117.01
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      }
+    ]
+  },
+  {
+    "nombre": "Camión UABC - Insurgentes",
+    "precio": 17,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      },
+      {
+        "nombre": "Insurgentes",
+        "lat": 32.4922,
+        "lng": -116.981
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia 3ra Etapa - UABC",
+    "precio": 14,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "3ra Etapa",
+        "lat": 32.495,
+        "lng": -116.94
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi El Soler - Centro",
+    "precio": 15,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "El Soler",
+        "lat": 32.516,
+        "lng": -117.05
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Camión La Joya - UABC",
+    "precio": 15,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "La Joya",
+        "lat": 32.456,
+        "lng": -116.88
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Rincón Dorado - 5 y 10",
+    "precio": 14,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "Rincón Dorado",
+        "lat": 32.495,
+        "lng": -116.88
+      },
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Paseo del Vergel - Centro",
+    "precio": 17,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Paseo del Vergel",
+        "lat": 32.475,
+        "lng": -116.88
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Camión La Presa - Otay",
+    "precio": 16,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "La Presa",
+        "lat": 32.4921,
+        "lng": -116.91
+      },
+      {
+        "nombre": "Otay",
+        "lat": 32.541,
+        "lng": -116.97
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Vía Rápida - UABC",
+    "precio": 14,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "Vía Rápida",
+        "lat": 32.52,
+        "lng": -117.002
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi Terrazas - UABC",
+    "precio": 17,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "Terrazas del Valle",
+        "lat": 32.474,
+        "lng": -116.865
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      }
+    ]
+  },
+  {
+    "nombre": "Camión La Gloria - SITT",
+    "precio": 15,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "La Gloria",
+        "lat": 32.472,
+        "lng": -117.003
+      },
+      {
+        "nombre": "Zona Río",
+        "lat": 32.528,
+        "lng": -117.005
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia El Lago - Centro",
+    "precio": 14,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "El Lago",
+        "lat": 32.468,
+        "lng": -116.91
+      },
+      {
+        "nombre": "Centro",
+        "lat": 32.5251,
+        "lng": -117.0194
+      }
+    ]
+  },
+  {
+    "nombre": "Taxi 5 y 10 - Buena Vista",
+    "precio": 16,
+    "tipo": "taxi",
+    "paradas": [
+      {
+        "nombre": "5 y 10",
+        "lat": 32.4993,
+        "lng": -117.015
+      },
+      {
+        "nombre": "Buena Vista",
+        "lat": 32.505,
+        "lng": -117.001
+      }
+    ]
+  },
+  {
+    "nombre": "Camión El Rubí - Santa Fe",
+    "precio": 15,
+    "tipo": "camion",
+    "paradas": [
+      {
+        "nombre": "El Rubí",
+        "lat": 32.478,
+        "lng": -117.035
+      },
+      {
+        "nombre": "Santa Fe",
+        "lat": 32.459,
+        "lng": -116.989
+      }
+    ]
+  },
+  {
+    "nombre": "Calafia Reforma - UABC",
+    "precio": 14,
+    "tipo": "calafia",
+    "paradas": [
+      {
+        "nombre": "Reforma",
+        "lat": 32.514,
+        "lng": -117.008
+      },
+      {
+        "nombre": "UABC",
+        "lat": 32.5311,
+        "lng": -116.9837
+      }
+    ]
+  }
+]
