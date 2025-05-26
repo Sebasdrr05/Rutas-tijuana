@@ -1,0 +1,143 @@
+/* === Estilos base === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+h1, h3 {
+  color: #003366;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* === Mapa === */
+#map {
+  height: 600px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === Buscador === */
+#buscador {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* === Leyenda === */
+#leyenda, #listaRutas, #detalleRuta, #rutasDisponibles {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.camion { background-color: blue; }
+.calafia { background-color: green; }
+.taxi { background-color: orange; }
+
+.ruta-item {
+  cursor: pointer;
+  padding: 5px 0;
+  transition: background-color 0.2s;
+}
+
+.ruta-item:hover {
+  background-color: #e6f0ff;
+  border-radius: 5px;
+}
+
+#listaParadas li {
+  margin: 4px 0;
+}
+
+/* === Tarjetas de rutas === */
+.ruta-card {
+  border: 1px solid #ccc;
+  border-left: 6px solid;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  background: #fff;
+  transition: transform 0.2s;
+}
+
+.ruta-card:hover {
+  transform: scale(1.02);
+}
+
+.ruta-card.camion { border-left-color: blue; }
+.ruta-card.calafia { border-left-color: green; }
+.ruta-card.taxi { border-left-color: orange; }
+
+.ruta-card button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #28a745;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ruta-card button:hover {
+  background-color: #218838;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+  <style>
+  body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+  body.dark-mode #map {
+    filter: brightness(0.85);
+  }
+  body.dark-mode .ruta-card {
+    background-color: #1e1e1e;
+    color: #fff;
+    border-color: #333;
+  }
+  body.dark-mode select,
+  body.dark-mode button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+  }
+</style>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="google-site-verification" content="rqq9vFdpWMj-ZQnoykkGL7xoVeeGAqSKBoG0a9297lQ" />
+  <title>Transporte Público Tijuana</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <button onclick="document.body.classList.toggle('dark-mode')"
+        style="position: fixed; top: 10px; right: 10px; z-index: 1000;
+               padding: 10px 14px; background: #444; color: white;
+               border: none; border-radius: 5px; cursor: pointer;">
+  🌓 Modo oscuro
+</button>
+
+  <header>
+    <h1>Transporte Público de Tijuana</h1>
+  </header>
+
+  <main class="container">
+    <section id="selectorRuta">
+  <label for="selectRuta">🧭 Selecciona una ruta para ver su recorrido:</label>
+  <select id="selectRuta" onchange="mostrarRutaSeleccionada()">
+    <option value="">-- Elige una ruta --</option>
+    
+  </select>
+
+  <label for="filtroTipo" style="margin-left: 20px;">Filtrar por tipo:</label>
+  <select id="filtroTipo" onchange="filtrarPorTipo()">
+    <option value="">Todos los tipos</option>
+    <option value="camion">Camiones 🚌</option>
+    <option value="calafia">Calafias 🚐</option>
+    <option value="taxi">Taxis 🚕</option>
+  </select>
+
+  <div id="cargandoRuta" style="display:none; color:#555; font-style:italic; margin-top:10px;">Cargando ruta...</div>
+</section>
+
+    <section id="map"></section>
+
+    <section id="leyenda">
+      <h3>🗺️ Leyenda de transporte</h3>
+      <ul>
+        <li><span class="color-box camion"></span> Camión 🚌</li>
+        <li><span class="color-box calafia"></span> Calafia 🚐</li>
+        <li><span class="color-box taxi"></span> Taxi 🚕</li>
+      </ul>
+    </section>
+
+    <section id="listaRutas">
+      <h3>📋 Rutas mostradas:</h3>
+      <ul id="rutasLista"></ul>
+    </section>
+
+    <section id="detalleRuta">
+      <h3>🔴 Paradas de la ruta seleccionada:</h3>
+      <p id="mensajeParadas">Selecciona una ruta para ver sus paradas.</p>
+      <ol id="listaParadas"></ol>
+    </section>
+
+    <section id="rutasDisponibles">
+      
+      <h3>🚦 Todas las rutas disponibles</h3>
+      <div id="rutasCards"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Transporte Tijuana. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
